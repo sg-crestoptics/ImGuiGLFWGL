@@ -31,7 +31,8 @@ project "ImGuiApp"
     {
         "%{prj.name}/vendor/GLEW/include",
         "%{prj.name}/vendor/GLFW/include",
-        "%{prj.name}/vendor/imgui"
+        "%{prj.name}/vendor/imgui",
+        "%{prj.name}/vendor/glm"
     } 
 
     libdirs

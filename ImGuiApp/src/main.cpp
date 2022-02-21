@@ -6,6 +6,9 @@
 
 #include "GL\glew.h"
 #include "GLFW\glfw3.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 
 void init(GLFWwindow* window)
@@ -30,7 +33,7 @@ int main()
 
 	GLFWwindow* window = glfwCreateWindow(1280, 760, "Simple App", NULL, NULL);
 	glfwMakeContextCurrent(window);
-
+	std::cout << vec.a << std::endl;
 	//initializing glew
 	if (glewInit() != GLEW_OK)
 		exit(EXIT_FAILURE);
