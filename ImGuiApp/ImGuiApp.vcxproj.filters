@@ -39,6 +39,8 @@
     <ClInclude Include="vendor\imgui\imstb_truetype.h">
       <Filter>vendor\imgui</Filter>
     </ClInclude>
+    <ClInclude Include="src\GLUtils.h" />
+    <ClInclude Include="src\Utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -65,5 +67,11 @@
     <ClCompile Include="vendor\imgui\imgui_widgets.cpp">
       <Filter>vendor\imgui</Filter>
     </ClCompile>
+    <ClCompile Include="src\GLUtils.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\fShader.frag" />
+    <None Include="src\shaders\vShader.vert" />
   </ItemGroup>
 </Project>
